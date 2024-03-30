@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Dino Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon/mahiwagangjelosearemastered.png">
+</head>
+<body>
+    <div class="game-container">
+        <div class="dino"></div>
+        <div class="obstacle"></div>
+        <div class="score">Score: <span id="score">0</span></div>
+        <div class="high-score">High: <span id="high-score">hi</span></div>
+        <div class="death-screen">
+            <div class="death-message">Game Over!</div>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <audio id="scoreSound" src="jump.wav"></audio>
+    <div id="messageContainer" class="message-container">
+        <div id="messageBox" class="message-box">
+            <p id="messageText" class="message-text"></p>
+
+</body>
+</html>
