@@ -1,12 +1,43 @@
+.info {
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   color: red;
+}
+
+.cat {
+   position: absolute;
+   z-index:100;
+   left: 10px;
+   text-align: center;
+}
+
+.cat2 {
+   position: absolute;
+   z-index:100;
+   right: 10px;
+   text-align: center;
+}
+
+.essay {
+   font-size: 30px;
+   position: absolute;
+   left: 10px;
+   right: 100px;
+   top: 10px;
+   color: black;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f7f7f7;
+    background-color: gray;
     margin: 0;
     font-family: VT323, sans-serif;
 }
+
 
 
 .game-container {
